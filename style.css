@@ -1,0 +1,63 @@
+/* TAGS*/
+
+body {
+    text-align: center;
+    background-color: #E4E0E1;
+}
+
+h1, h2, h3, h4, p {
+    font-family: "Rubik", sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #C62E2E;
+}
+
+h3 {
+    font-size: 35px;
+    display: inline-block;
+    padding: 0 170px;
+    width: 150px;
+}
+
+footer {
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #0000009f;
+}
+
+/* CLASSES */
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-size: 20px;
+    color: white;
+    background-color:#C62E2E;
+}
+
+.btn:hover {
+    transform: scale(1.01);
+    background-color:#b31e1e;
+}
+
+.winner {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.player1, .player2 {
+    margin: 0 100px;
+    height: 300px;
+}
