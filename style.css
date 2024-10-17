@@ -71,5 +71,6 @@ a, a:visited {
 
     .player1, .player2 {
         margin: 0 auto;
+        height: 200px;
     }
 }
